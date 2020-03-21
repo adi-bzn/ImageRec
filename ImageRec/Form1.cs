@@ -15,6 +15,15 @@ namespace ImageRec
         public Form1()
         {
             InitializeComponent();
+
+            Trial_box.Text = "Hello World!";
+        }
+
+
+
+        private void Trial_box_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

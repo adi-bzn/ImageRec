@@ -37,6 +37,7 @@
             this.Trial_box.Name = "Trial_box";
             this.Trial_box.Size = new System.Drawing.Size(261, 22);
             this.Trial_box.TabIndex = 0;
+            this.Trial_box.TextChanged += new System.EventHandler(this.Trial_box_TextChanged);
             // 
             // Form1
             // 
